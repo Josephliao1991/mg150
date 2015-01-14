@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation.h>
-<<<<<<< HEAD
-#pragma mark - Josephliao
-=======
-// kefan
->>>>>>> FETCH_HEAD
+
+#pragma mark - jo
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
