@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E7D11621A66652900FDE993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7D11611A66652900FDE993 /* Foundation.framework */; };
 		4EF0A3681A661F0200106B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0A3671A661F0200106B64 /* main.m */; };
 		4EF0A36B1A661F0200106B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0A36A1A661F0200106B64 /* AppDelegate.m */; };
 		4EF0A36E1A661F0200106B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF0A36D1A661F0200106B64 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E7D11611A66652900FDE993 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EF0A3621A661F0200106B64 /* mg150.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mg150.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF0A3661A661F0200106B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF0A3671A661F0200106B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E7D11621A66652900FDE993 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		4EF0A3591A661F0200106B64 = {
 			isa = PBXGroup;
 			children = (
+				4E7D11611A66652900FDE993 /* Foundation.framework */,
 				4EF0A3641A661F0200106B64 /* mg150 */,
 				4EF0A37E1A661F0300106B64 /* mg150Tests */,
 				4EF0A3631A661F0200106B64 /* Products */,
@@ -412,6 +416,7 @@
 				4EF0A3871A661F0300106B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF0A3881A661F0300106B64 /* Build configuration list for PBXNativeTarget "mg150Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				4EF0A38A1A661F0300106B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
